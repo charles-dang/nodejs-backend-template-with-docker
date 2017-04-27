@@ -4,20 +4,20 @@
   "description": "",
   "scripts": {
     "start": "node src/index.js",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha ./test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/charles-dang/new-service-directory-structures"
+    "url": "https://github.com/charles-dang/nodejs-backend-template-with-docker"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/charles-dang/new-service-directory-structures/issues"
+    "url": "https://github.com/charles-dang/nodejs-backend-template-with-docker"
   },
   "devDependencies": {
     "mocha": "2.3.3"
   },
-  "homepage": "https://github.com/charles-dang/new-service-directory-structures",
+  "homepage": "https://github.com/charles-dang/nodejs-backend-template-with-docker",
   "dependencies": {
     "mocha": "^2.3.3"
   }

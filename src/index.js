@@ -1,6 +1,6 @@
 "uses strict"
-const fs = require('fs');
 const readline = require('readline');
+const fs = require('fs');
 const path = require('path');
 
 const input = readline.createInterface({

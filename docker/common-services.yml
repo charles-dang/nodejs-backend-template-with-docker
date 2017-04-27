@@ -1,0 +1,11 @@
+build:
+  image: node:boron
+  working_dir: /build
+  volumes:
+    - ..:/build
+
+
+application:
+  image: ${IMAGE_NAME}
+  working_dir: /application
+  command: "npm start"

@@ -1,0 +1,6 @@
+application:
+  image: ${IMAGE_NAME}
+  working_dir: /application
+  command: "npm start"
+  volumes:
+    - ../src:/application/src
