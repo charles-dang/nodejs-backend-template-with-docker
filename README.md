@@ -2,7 +2,10 @@
 Standard directory structure for node.js application
 
 # Use guide
+One cloned, change origin to point to your new git location so future updates will be pushed to your repo.
+```
 git remote -v origin git@github.com:USERNAME/REPOSITORY.git 
+```
 
 # Development Duide
 To build project into a docker image
