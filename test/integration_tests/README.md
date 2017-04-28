@@ -1,0 +1,1 @@
+Integration tests are tests that communicate to the application from outside.

@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "node src/index.js",
-    "test": "./node_modules/mocha/bin/mocha ./test"
+    "unit-test": "./node_modules/mocha/bin/mocha ./test/unit_tests",
+    "integration-test": "./node_modules/mocha/bin/mocha ./test/integration_test"
   },
   "repository": {
     "type": "git",
