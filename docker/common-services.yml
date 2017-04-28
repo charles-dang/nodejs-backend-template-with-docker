@@ -1,5 +1,5 @@
 build:
-  image: node:boron
+  image: node:6.10
   working_dir: /build
   volumes:
     - ..:/build
