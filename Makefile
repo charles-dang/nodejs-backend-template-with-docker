@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := build
+
 IMAGE_NAME=application
-$(shell echo IMAGE_NAME=${IMAGE_NAME} >> .env)
 
 #Build docker image by first perform npm install outside.  We do not want to perform npm install inside Dockerfile due to layering effect
 build:
@@ -24,8 +24,5 @@ test-integration:
 test: 
 	make test-unit
 	make test-integration
-
-up-dev:
-	sudo docker-compose -f docker/common-services.yml -f docker/dev.yml up -d
 
  .PHONY: test

@@ -1,7 +1,7 @@
 unit:
-  image: ${IMAGE_NAME}
+  image: application
   command: "npm test"
 
 integration:
-  image: ${IMAGE_NAME}
+  image: application
   command: "npm integration-test"
